@@ -24,15 +24,15 @@ body {
 }
 
 #h1 {
-    margin-bottom: 40%;
+    margin-bottom: 20%;
 }
 
 #shop {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #image {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     transition: transform 0.5s;
     transition-timing-function: linear;
 }
