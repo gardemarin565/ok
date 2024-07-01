@@ -1,7 +1,12 @@
+html, body {
+    height: 100%;
+}
+
 body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom left, #d89339, #c953b9) no-repeat;
 }
 
 #game{
@@ -15,7 +20,7 @@ body {
 }
 
 body {
-    background-color: rgb(0, 17, 71);
+    background-color: white;
 }
 
 #h1 {
@@ -23,5 +28,34 @@ body {
 }
 
 #shop {
-    margin-top: 40%;
+    margin-top: 15%;
+}
+
+#image {
+    margin-bottom: 20%;
+    transition: transform 0.5s;
+    transition-timing-function: linear;
+}
+
+.scroll {
+    height: 6px;
+    background-color: wheat;
+    position: fixed;
+    top: 0;
+}
+
+.clicked {
+    scale: 90%;
+}
+
+.clickin {
+    transform: scale(0%);
+}
+
+.notclicked {
+    transform: scale(100%);
+}
+
+progress {
+    width:400px;
 }

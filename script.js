@@ -4,27 +4,67 @@ var counter=0
 var upgrade=1
 var shop=document.getElementById('openshop')
 var back=document.getElementById('closeshop')
-var ruffs=document.getElementById('upgrade')
+var shopin=document.getElementById('upgrade')
+let progressBar = document.getElementById('pro');
+var value=50
+var progress=500
+var energu=document.getElementById('energy')
+var priblvchas=0
+var poprikazy=100
+var ok=document.getElementById('ok')
+
+const pribl=() => {
+    counter=counter+(priblvchas/3600)
+    h1Id.textContent=counter
+}
+
+do {
+    setInterval(() => pribl(), 1000);
+} while (progress<500); 
+
+const energycharge=() => {
+    if (progress<500) {
+        progress=progress+1
+        progressBar.setAttribute('value', progress)
+        energu.textContent=`${progress}/500`
+    }
+    else {}
+}
+
+do {
+    setInterval(() => energycharge(), 1000);
+} while (progress<500);
 
 buttonId.addEventListener('click', function(){
-    counter=counter+upgrade
-    h1Id.textContent=counter
+    if(progress!=0) {
+        buttonId.classList.add('clickin')
+        counter=counter+upgrade
+        h1Id.textContent=counter
+        progress=progress-1
+        energu.textContent=`${progress}/500`
+        progressBar.setAttribute('value', progress)
+        setInterval(() => buttonId.classList.remove('clickin'), 10);
+    }
+    else {}
+    
 })
 
 shop.addEventListener('click', function(){
     shop.classList.add('hidden')
     back.classList.remove('hidden')
-    ruffs.classList.remove('hidden')
+    shopin.classList.remove('hidden')
 })
 
 back.addEventListener('click', function(){
     shop.classList.remove('hidden')
     back.classList.add('hidden')
-    ruffs.classList.add('hidden')
+    shopin.classList.add('hidden')
 })
 
-ruffs.addEventListener('click', function(){
-    upgrade=upgrade+1
-    counter=counter-10
-    h1Id.textContent=counter
+ok.addEventListener('click', function(){
+    if (counter>=10) {
+        priblvchas=priblvchas+3600
+        counter=counter-10
+    }
+    else {}
 })
