@@ -1,18 +1,18 @@
-html, body {
-    height: 100%;
-}
-
 body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom left, #d89339, #c953b9) no-repeat;
 }
 
 #game{
     width: 405px;
     height: 200px;
     margin: 0 auto;
+}
+
+#clicker {
+    background: linear-gradient(to bottom left, #77ec4c, #3e83e3) no-repeat;
+
 }
 
 .hidden{
@@ -24,7 +24,8 @@ body {
 }
 
 #shop {
-    margin-top: 10%;
+    transform: translate(270%, -450%);
+    position: absolute;
 }
 
 #image {
@@ -45,7 +46,7 @@ body {
 }
 
 .clickin {
-    transform: scale(0%);
+    transform: scale(-50%);
 }
 
 .notclicked {
@@ -53,5 +54,11 @@ body {
 }
 
 progress {
-    width:400px;
+    width: 200px;
+    transform: translate(-47%, -850%);
+    position: absolute;
+}
+
+#energy {
+    transform: translateY(-690%);
 }
