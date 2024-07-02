@@ -4,6 +4,8 @@ body {
     padding: 0;
     height: 100vh;
     background: linear-gradient(to bottom left, #0b8eb2, #e6096d) no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #game{
