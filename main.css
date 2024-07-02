@@ -2,17 +2,14 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #77ec4c, #3e83e3) no-repeat;
 }
 
 #game{
     width: 405px;
     height: 200px;
     margin: 0 auto;
-}
-
-#clicker {
-    background: linear-gradient(to bottom left, #77ec4c, #3e83e3) no-repeat;
-
 }
 
 .hidden{
