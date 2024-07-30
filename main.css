@@ -61,3 +61,15 @@ progress {
 #energy {
     transform: translateY(-690%);
 }
+
+#selectbar {
+    transform: translate(0%, 4000%);
+    background: linear-gradient(to bottom right, #90e105, #e49306) no-repeat;
+    width: 50dvh;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.select {
+    margin-right: 50px;
+}
