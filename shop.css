@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #0b8eb2, #e6096d) no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+img {
+    width: 12%;
+    height: 90%;
+    margin-right: 80%;
+    margin-top: 1%;
+}
+
+.predmet {
+    width: 90dvh;
+    height: 15dvh;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 10%;
+    background: linear-gradient(to left, #78e838, #30e2df);
+    border-radius: 20px;
+}
+
+.text {
+    transform: translate(0%, -520%);
+}
+
+.price {
+    transform: translate(38%, -720%);
+}
