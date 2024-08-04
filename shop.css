@@ -26,11 +26,11 @@ img {
 }
 
 .text {
-    transform: translate(0%, -520%);
+    transform: translate(0%, -450%);
 }
 
 .price {
-    transform: translate(38%, -720%);
+    transform: translate(38%, -650%);
 }
 
 #poprikazy {
