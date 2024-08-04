@@ -12,11 +12,8 @@ var energu=document.getElementById('energy')
 var priblvchas=0
 var poprikazy=100
 var ok=document.getElementById('ok')
-
-const pribl=() => {
-    counter=counter+(priblvchas/3600)
-    h1Id.textContent=counter
-}
+var priblzatap=document.getElementById('priblzatap')
+var energylimit=document.getElementById('energyplus')
 
 do {
     setInterval(() => pribl(), 1000);

@@ -16,7 +16,7 @@ img {
 }
 
 .predmet {
-    width: 55dvh;
+    width: 50dvh;
     height: 15dvh;
     margin: 0;
     margin-left: 5%;
@@ -31,4 +31,10 @@ img {
 
 .price {
     transform: translate(38%, -720%);
+}
+
+#poprikazy {
+    transform: scaleX(200%);
+    margin-top: 15px;
+    margin-left: 15px;
 }
