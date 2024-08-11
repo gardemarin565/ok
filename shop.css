@@ -55,3 +55,8 @@ img {
     margin-right: 50px;
     margin-top: 7px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
