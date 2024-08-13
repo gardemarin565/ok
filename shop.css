@@ -17,12 +17,12 @@ img {
 
 .predmet {
     width: 50dvh;
-    height: 15dvh;
+    height: 10dvh;
     margin: 0;
     margin-left: 4%;
-    margin-top: 10%;
-    background: linear-gradient(to left, #78e838, #30e2df);
-    border-radius: 20px;
+    margin-top: 5%;
+    background: linear-gradient(to bottom left, #a0a0a0, #4c4c4c);
+    border-radius: 40px;
 }
 
 .text {
@@ -34,18 +34,17 @@ img {
 }
 
 #poprikazy {
-    transform: scaleX(200%);
+    transform: scaleX(135%);
     margin-top: 15px;
     margin-left: 15px;
 }
 
 #selectbar {
-    transform: translate(50px,600%);
+    transform: translate(-5px, 100px);
     background: linear-gradient(to top right, #ffffff0c, #ffffffa6) no-repeat;
     width: 50dvh;
     border-radius: 5px;
-    margin-left:-15px;
-    height: 40px;
+    height: 50px;
     border: 4px rgba(239, 239, 239, 0.508) solid;
     text-align: center;
     display: flex;
@@ -53,7 +52,7 @@ img {
 
 .select {
     margin-right: 50px;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 a {
