@@ -63,7 +63,7 @@ progress {
 }
 
 #selectbar {
-    transform: translate(10px, 300px);
+    transform: translate(5px, 300px);
     background: linear-gradient(to top right, #ffffff0c, #ffffffa6) no-repeat;
     width: 50dvh;
     border-radius: 5px;
