@@ -24,13 +24,11 @@ do {
 
 buttonId.addEventListener('click', function(){
     if(progress!=0) {
-        buttonId.setAttribute('style', 'transform: scale(20%) translateY(-15%);')
         counter=counter+upgrade
         h1Id.textContent=counter
         progress=progress-1
         energu.textContent=`${progress}/500`
         progressBar.setAttribute('value', progress)
-        setInterval(() => buttonId.setAttribute('style', 'transform: scale(70%) translateY(-15%);'), 10);
     }
     else {}
 })
