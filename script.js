@@ -3,7 +3,6 @@ var buttonId=document.getElementById('image')
 var counter=0
 var upgrade=1
 let progressBar = document.getElementById('pro');
-var value=50
 var progress=500
 var energu=document.getElementById('energy')
 var priblzatap=document.getElementById('priblzatap')
