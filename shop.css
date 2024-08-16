@@ -49,12 +49,10 @@ img {
     text-align: center;
     display: flex;
 }
-
 .select {
     margin-right: 50px;
     margin-top: 10px;
 }
-
 a {
     text-decoration: none;
     color: white;
