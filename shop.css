@@ -40,7 +40,7 @@ img {
 }
 
 #selectbar {
-    transform: translate(-5px, 100px);
+    transform: translateY(100px);
     background: linear-gradient(to top right, #ffffff0c, #ffffffa6) no-repeat;
     width: 50dvh;
     border-radius: 5px;
