@@ -63,11 +63,11 @@ progress {
 }
 
 #selectbar {
-    transform: translate(-5px, 300px);
+    transform: translateY(300px);
     background: linear-gradient(to top right, #ffffff0c, #ffffffa6) no-repeat;
     width: 50dvh;
     border-radius: 5px;
-    height: 70px;
+    height: 50px;
     border: 4px rgba(239, 239, 239, 0.508) solid;
     text-align: center;
     display: flex;
