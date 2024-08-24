@@ -28,7 +28,7 @@ const userScheme = new schema({
     autotap: Boolean
 })
 
-async function loadProgress(){
+function loadProgress(){
     const User = mongoose.model("User", userScheme)
     User.find({id: value}, function(err, data){
         if(data.length == 0){
@@ -43,9 +43,6 @@ async function loadProgress(){
     })
 }
 loadProgress()
-
-jsonData.key = "ok"
-fs.writeFileSync('./database.json', JSON.stringify(jsonData, null, 2))
 
 const energycharge=() => {
     if (progress<EnergyLimitUpgrade) {
@@ -63,7 +60,7 @@ do {
 buttonId.addEventListener('click', function(){
     if(progress!=0) {
         counter=counter+upgrade
-        h1Id.textContent = counter+upgrade
+        h1Id.textContent = counter
         progress=progress-1
         energu.textContent=`${progress}/${EnergyLimitUpgrade}`
         progressBar.setAttribute('value', progress)
